@@ -6,7 +6,7 @@ li = [("Harry potter",1),("Harry",2),("potter",3),("Harry pot",4),("rry potter",
 obj = Librarian("Anirudh",101)
 for i in range(len(li)):
     obj.addBooks(li[i][0],li[i][1])
-# obj.addBooks("Harry potter",1)
+obj.addBooks("Harry potter",1)
 
 for i in Library.books:
     print(i.book_name,end = " ")
@@ -50,4 +50,4 @@ while True:
             obj = Student(name,user_id,email)
     elif inp == 2:
         print("enter 1 for login as Librarian")
-        
+
